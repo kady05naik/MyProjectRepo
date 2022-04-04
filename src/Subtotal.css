@@ -1,0 +1,22 @@
+.product > button {
+  background-color: #192537;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #192537;
+  color: white;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+.subtotal_gift {
+  margin-right: 5px;
+}

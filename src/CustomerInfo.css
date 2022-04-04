@@ -1,0 +1,68 @@
+.customerinfo {
+    padding: 50px;
+    background-color: #192537;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .newaccount_container {
+    outline: none;
+    background-color: white;
+    width: 270px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+  }
+
+.newaccount_container > form >hr {
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+  }
+
+
+  .newaccount_container > form > input {
+    border: silver;
+    border-color: silver;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  .newaccount_container > form > p {
+        margin-top:10px;
+        font-size: 13px;
+  }
+  
+  
+  .backButton {
+    color: white;
+    background: #f44336;
+    width: 50%;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .registerButton{
+    color: white;
+    background: #04aa6d;
+    border-radius: 2px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .newaccount_container> form> h1 {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
